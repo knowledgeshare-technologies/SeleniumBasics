@@ -28,6 +28,8 @@ public class Locators_XPATH_functions_related
 	driver.findElement(By.xpath("(//input[@type='password'])[1]")).sendKeys("123456");
 	driver.findElement(By.xpath("(//input[@type='password'])[2]")).sendKeys("123456");
 	
+	System.out.println("this is for testing second push in to git repo");
+	
 	}
 	
 }
