@@ -40,7 +40,21 @@ public class Locators_ID_NAME_CLASS_Example
 		//Type Last Name
 		driver.findElement(By.id("LastName")).sendKeys("Share");
 		
+		int i=10;
 		//Type Email adress
+		int j=10;
+		
+		int k=j+10;
+		
+		if(k==20)
+		{
+			System.out.println("k value is 20");
+		}
+		else
+		{
+			System.out.println("k value is NOT 20");
+		}
+		
 		driver.findElement(By.name("Email")).sendKeys("knowledgeshare@test.com");
 		
 		//Type Password
@@ -51,8 +65,6 @@ public class Locators_ID_NAME_CLASS_Example
 		
 		//Click on Register button
 		driver.findElement(By.id("register-button")).click();
-		
-		
 		System.out.println("registration details entered successfully");
 		
 		
