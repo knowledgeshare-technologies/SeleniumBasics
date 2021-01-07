@@ -14,14 +14,11 @@ public class javascriptExecutor_Example_3 {
 		WebDriver driver=new ChromeDriver();
 		driver.navigate().to("http://demowebshop.tricentis.com/login");
 		driver.manage().window().maximize();
-		
+	
+		//Clicking on an element/ hidden element
 		JavascriptExecutor js=(JavascriptExecutor)driver;
-		//js.executeScript("document.getElementById('RememberMe').click()");
-		
-		//Clicking on hidden elements
-		WebElement remember_be_checkbox=driver.findElement(By.xpath("//*[@id=\"RememberMe\"]"));
-		js.executeScript("arguments[0].click()", remember_be_checkbox);
-
+		WebElement remember_me_button =driver.findElement(By.xpath("//*[@id='RememberMe']"));
+		js.executeScript("arguments[0].click()", remember_me_button);
 	}
 
 }

@@ -55,7 +55,7 @@ public class Locators_ID_NAME_CLASS_Example
 			System.out.println("k value is NOT 20");
 		}
 		
-		driver.findElement(By.name("Email")).sendKeys("knowledgeshare@test.com");
+		driver.findElement(By.name("Email")).sendKeys("knowledgeshare123@test.com");
 		
 		//Type Password
 		driver.findElement(By.name("Password")).sendKeys("123456");
