@@ -29,7 +29,6 @@ public class implicit_wait_Example {
 			actions.sendKeys(Keys.ENTER).build().perform();
 			
 			driver.findElement(By.xpath("(//*[@class='cfxYMc JfZTW c4Djg MUxGbd v0nnCb'])[2]")).click();
-
 	}
 
 }
